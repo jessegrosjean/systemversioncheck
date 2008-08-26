@@ -9,21 +9,7 @@
 /* Begin PBXBuildFile section */
 		88B526CA0E54D3BC00B3553F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B526C90E54D3BC00B3553F /* Cocoa.framework */; };
 		8DD76F9A0486AA7600D96B5E /* SystemVersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* SystemVersionCheck.m */; settings = {ATTRIBUTES = (); }; };
-		8DD76F9F0486AA7600D96B5E /* SystemVersionCheck.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* SystemVersionCheck.1 */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-				8DD76F9F0486AA7600D96B5E /* SystemVersionCheck.1 in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* SystemVersionCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemVersionCheck.m; sourceTree = "<group>"; };
@@ -98,7 +84,6 @@
 			buildPhases = (
 				8DD76F990486AA7600D96B5E /* Sources */,
 				8DD76F9B0486AA7600D96B5E /* Frameworks */,
-				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
 			);
 			buildRules = (
 			);
