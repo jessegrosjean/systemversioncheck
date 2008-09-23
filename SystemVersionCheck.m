@@ -8,6 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 #include <stdlib.h>
+#include <unistd.h>
+
 
 static void GetVersionComponentsFromString(int *majorPtr, int *minorPtr, int *bugfixPtr, NSString *versionString)
 {
@@ -247,7 +249,7 @@ int main(int argc, char *argv[])
     
     [argvData appendBytes:&nullPtr length:sizeof(nullPtr)];
 	
-    execv(((const char **)[argvData bytes])[0], (const char **)[argvData bytes]);
+    execv(((const char **)[argvData bytes])[0], [argvData bytes]);
     
     // This should never be reached
 	
